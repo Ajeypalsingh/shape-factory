@@ -1,0 +1,92 @@
+@import url("./reset.css");
+
+.container {
+  width: min(100% - 30px, 1080px);
+  margin-inline: auto;
+}
+
+main {
+  background-color: #171a22;
+  height: 100vh;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  padding: 120px 0 15px 0;
+}
+
+.button {
+  height: 70px;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+select,
+button {
+  height: 40px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 15px;
+  border: 0.5px solid #b5a8a8;
+}
+
+select {
+  width: 35%;
+  background-color: #272a31;
+  color: #fff;
+  border: 0.5px solid #b5a8a8;
+  transition: all 0.2s ease-in-out;
+}
+
+select:focus {
+  background-color: #1e2127;
+}
+
+button {
+  width: 20%;
+  background-color: #ff7b00;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #d97e07f2;
+}
+
+section {
+  height: 400px;
+  width: 500px;
+  border-radius: 5px;
+  background-color: #272a31;
+  border: 0.5px solid #b5a8a8;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 12px 12px;
+  grid-auto-flow: row;
+  padding: 5px 5px;
+}
+
+p {
+  height: 30px;
+  width: 500px;
+  text-align: center;
+  margin: 10px auto;
+  color: #fff;
+}
+
+.circle {
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  background-color: #ff7b00;
+}
+
+.square {
+  border-radius: 5px;
+  height: 100%;
+  width: 100%;
+}
